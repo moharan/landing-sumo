@@ -1,0 +1,72 @@
+* {
+ font-family: 'Lato', sans-serif;
+}
+.first-section {
+	background-image: url(../img/bg.jpeg);
+	/*alto total de la pagina*/
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*Primera parte*/
+.first-section h1 {
+	/*de donde toma la medida inicial?*/
+	padding-top: 2em;
+	color: #fff;
+	font-weight: 900;
+	font-size: 70px;
+}
+.line {
+	/*ancho de la linea desde las columnas */
+	border-top: 3px solid white;
+}
+#showApp {
+	color: #fff;
+	font-weight: 400;
+}
+.app {
+	padding: 2em 0;
+	color: #5A5A5A;
+}
+/*Segunda parte*/
+.second-section {
+	background-color: #FFF;
+	padding: 5em 0;
+}
+.title-second {
+	color: #d2527f;
+}
+.features {
+	padding: 0.8em;
+}
+.features:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+p {
+	padding: 0;
+	margin-bottom: 1em;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666;
+	margin-top: 1em;
+}
+/*Tercera parte*/
+.third-section {
+	background-color: #f2f2f2;
+	height: 100vh; 
+}
+.btn-default {
+	color: #fff;
+	background-color: #d2527f;
+	border-color: #b4215d;
+}
+.btn-default:hover {
+	background-color: #c53a6d;
+	color: #fff;
+}
+.btns {
+	padding-top: 5em;
+}
+
